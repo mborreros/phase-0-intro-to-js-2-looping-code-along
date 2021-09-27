@@ -1,19 +1,16 @@
 // Code your solutions in this file
-// const names = ["Ada", "Brendan", "Ali"];
-// const events = "birthday";
-// const thankYouCards = [];
+const names = ["Lisa", "Kaitlin", "Jan"];
+const events = "surprise";
+const thankYouCards = [];
+let messages;
 
-// function writeCards (names, events) {
-//     for (let i = 0; i < names.length; i++) {
-//         console.log(`Thank you, ${names[i]}, for the wonderful ${events} gift!`)
-//     }
-// };
-
-// writeCards (names, events);
-
-// thankYouCards[writeCards];
-
-// return thankYouCards;
+function writeCards (names, events) {
+    for (let i = 0; i < names.length; i++) {
+        thankYouCards[i] = `Thank you, ${names[i]}, for the wonderful ${events} gift!`;
+        console.log(messages);
+    }
+    return thankYouCards;
+};
 
 function countDown (i) {
     while (i >= 0) {
